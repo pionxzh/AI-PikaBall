@@ -2,6 +2,21 @@
 
 ![cover](./image/gameScreen-1.png)
 
+## 關於
+透過 DQN 的方法訓練AI玩`皮卡丘打排球`
+
+整體操作框架採用 [SerpentAI](https://github.com/SerpentAI/SerpentAI)
+
+遊戲內資訊透過windows API直接抓取內存
+
+(使用`CheatEngine`抓取記憶體偏移值)
+
+以變省去`OpenCV`辨識各種資訊的步驟
+
+雖然遊戲執行檔已經事先用`Resource Hacker`簡化畫面了
+
+相關[訓練成果GIF](https://github.com/pionxzh/AI-PikaBall/tree/master/image)及模型詳見各資料夾
+
 ## DEMO
 
 ![demo1](./image/2-tiny.gif)
@@ -10,22 +25,6 @@
 
 分數趨勢\
 ![demo3](./image/score.png)
-
-## 關於
-透過`DQN`的方法訓練AI玩`皮卡丘打排球`
-
-整體操作框架採用 [SerpentAI](https://github.com/SerpentAI/SerpentAI)
-
-遊戲內資訊透過windows API直接抓取內存
-
-(事先透`CheatEngine`抓取記憶體偏移值)
-
-以省去`OpenCV`辨識各種資訊的步驟
-
-雖然遊戲執行檔已經事先用`Resource Hacker`簡化畫面了\
-(給`OpenCV`用的)
-
-相關[訓練成果GIF](https://github.com/pionxzh/AI-PikaBall/image/)及模型詳見各資料夾
 
 ## 環境安裝
 
