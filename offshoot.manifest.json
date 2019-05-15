@@ -1,0 +1,49 @@
+{
+    "plugins": {
+        "SerpentPikaBallGamePlugin": {
+            "name": "SerpentPikaBallGamePlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_PikaBall_game.py",
+                    "pluggable": "Game"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "fps": 10
+            }
+        },
+        "SerpentPikaBallGameAgentPlugin": {
+            "name": "SerpentPikaBallGameAgentPlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_PikaBall_game_agent.py",
+                    "pluggable": "GameAgent"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "frame_handler": "PLAY"
+            }
+        },
+        "SerpentPika2GameAgentPlugin": {
+            "name": "SerpentPika2GameAgentPlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_Pika2_game_agent.py",
+                    "pluggable": "GameAgent"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "frame_handler": "PLAY"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+SerpentPika2GameAgentPlugin:
+  frame_handler: PLAY
+SerpentPikaBallGameAgentPlugin:
+  frame_handler: PLAY
+SerpentPikaBallGamePlugin:
+  fps: 10
